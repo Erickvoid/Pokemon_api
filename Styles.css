@@ -1,0 +1,51 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 0%;
+    background-image: -moz-element(center);
+}
+.titulo{
+text-align: center;
+padding: 24px;
+color: blue;
+}
+.pokelist{
+display: grid;
+grid-template-columns: 1fr 100px 1fr;
+max-width: 650px;
+margin: auto;
+}
+.vs{
+text-align: center;
+margin: auto;
+font-size: 32px;
+color: indigo;
+}
+.pokemon{
+border: 1px solid yellow;
+padding: 10px;
+
+background-color: white;
+text-align: center;
+}
+img{
+    width: 100%;
+}
+.button{
+    background-color: indigo;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: turquoise;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+footer
+{
+    margin-top:30%;
+    width:100%;
+    height:79px;
+}
